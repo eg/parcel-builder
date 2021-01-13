@@ -1,4 +1,3 @@
 # parcel-builder
 
-Simple builder for parce.js
-
+parcel.js için detaylı build almanıza yarayan ufacık birşey.

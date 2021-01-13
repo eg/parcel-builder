@@ -1,0 +1,19 @@
+{
+  "name": "parcelbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel app/*",
+    "build": "parcel build app/* --out-dir public --public-url ./ --no-cache && node parcelbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash.escaperegexp": "^4.1.2",
+    "replace-in-file": "^6.1.0",
+    "sass": "^1.32.4"
+  }
+}
